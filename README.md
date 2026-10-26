@@ -26,7 +26,9 @@ The FITS archives are too large for the repository itself, so they are attached 
 * [DWARFmini_twilight_2026-10-26_gain0_full.zip](https://github.com/tepliyk/dwarf-mini-aavso/releases/download/v2026.10.26/DWARFmini_twilight_2026-10-26_gain0_full.zip) (600 MB): all 725 frames of the same series.
 * [DWARFmini_dawn_2026-10-07_gain60_raw.zip](https://github.com/tepliyk/dwarf-mini-aavso/releases/download/v2026.10.26/DWARFmini_dawn_2026-10-07_gain60_raw.zip) (384 MB): dawn, GAIN 60, 5 pointings, 109 frames.
 
-No calibration applied, headers untouched.
+No calibration applied, headers untouched. Thin clouds passed through the field between about 16:38 and 16:47 (visible in the stretched panels below); the sky level still fell smoothly and the pair-difference method is insensitive to it.
+
+![Twilight series overview](gain/twilight_montage_2026-10-26.png)
 
 ## System gain, e-/ADU (12-bit data in a 16-bit container, pedestal ~200 ADU, saturation 4095)
 
