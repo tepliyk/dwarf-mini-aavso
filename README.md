@@ -17,11 +17,16 @@ variable-star photometry. Free to use, please credit the data.
 | `headers/` | Example raw FITS headers (sub-frame and on-board stack). |
 | `tools/check_test.py`, `tools/twilight_levels.py` | Quick level/saturation checks per Bayer channel. |
 
-Raw frames are in **Releases** (zip, FITS, no calibration applied):
+## Raw frames (download)
 
-* `DWARFmini_twilight_2026-10-26_gain0_subset.zip` (120 MB): every 5th frame, 145 frames, GAIN 0, 0.25 s.
-* `DWARFmini_twilight_2026-10-26_gain0_full.zip` (600 MB): all 725 frames of the same series.
-* `DWARFmini_dawn_2026-10-07_gain60_raw.zip` (366 MB): dawn, GAIN 60, 5 pointings, 109 frames.
+The FITS archives are too large for the repository itself, so they are attached to the release
+[v2026.10.26](https://github.com/tepliyk/dwarf-mini-aavso/releases/tag/v2026.10.26). Direct links:
+
+* [DWARFmini_twilight_2026-10-26_gain0_subset.zip](https://github.com/tepliyk/dwarf-mini-aavso/releases/download/v2026.10.26/DWARFmini_twilight_2026-10-26_gain0_subset.zip) (120 MB): every 5th frame, 145 frames, GAIN 0, 0.25 s.
+* [DWARFmini_twilight_2026-10-26_gain0_full.zip](https://github.com/tepliyk/dwarf-mini-aavso/releases/download/v2026.10.26/DWARFmini_twilight_2026-10-26_gain0_full.zip) (600 MB): all 725 frames of the same series.
+* [DWARFmini_dawn_2026-10-07_gain60_raw.zip](https://github.com/tepliyk/dwarf-mini-aavso/releases/download/v2026.10.26/DWARFmini_dawn_2026-10-07_gain60_raw.zip) (384 MB): dawn, GAIN 60, 5 pointings, 109 frames.
+
+No calibration applied, headers untouched.
 
 ## System gain, e-/ADU (12-bit data in a 16-bit container, pedestal ~200 ADU, saturation 4095)
 
