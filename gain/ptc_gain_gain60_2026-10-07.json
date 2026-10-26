@@ -1,0 +1,86 @@
+{
+ "sessions": [
+  {
+   "dir": "DWARF_RAW_TELE_Rigel_EXP_10_GAIN_60_2026-10-07-05-37-35-360",
+   "n": 25,
+   "gain": 60,
+   "exp": 10.0,
+   "filter": "Astro",
+   "fw": "1.1.4.7"
+  },
+  {
+   "dir": "DWARF_RAW_TELE_Alnitak_EXP_10_GAIN_60_2026-10-07-05-46-34-340",
+   "n": 20,
+   "gain": 60,
+   "exp": 10.0,
+   "filter": "Astro",
+   "fw": "1.1.4.7"
+  },
+  {
+   "dir": "DWARF_RAW_TELE_HD 39801_EXP_10_GAIN_60_2026-10-07-05-54-04-511",
+   "n": 24,
+   "gain": 60,
+   "exp": 10.0,
+   "filter": "Astro",
+   "fw": "1.1.4.7"
+  },
+  {
+   "dir": "DWARF_RAW_TELE_Pollux_EXP_5_GAIN_60_2026-10-07-06-02-57-495",
+   "n": 20,
+   "gain": 60,
+   "exp": 5.0,
+   "filter": "Astro",
+   "fw": "1.1.4.7"
+  },
+  {
+   "dir": "DWARF_RAW_TELE_Procyon_EXP_5_GAIN_60_2026-10-07-06-10-22-650",
+   "n": 12,
+   "gain": 60,
+   "exp": 5.0,
+   "filter": "Astro",
+   "fw": "1.1.4.7"
+  }
+ ],
+ "channels": {
+  "R": {
+   "n_pairs": 88,
+   "gain_e_per_adu": 1.147,
+   "gain_err": 0.003,
+   "S_range_adu": [
+    220,
+    1873
+   ],
+   "read_noise_adu": 2.55
+  },
+  "G1": {
+   "n_pairs": 90,
+   "gain_e_per_adu": 1.182,
+   "gain_err": 0.002,
+   "S_range_adu": [
+    227,
+    2244
+   ],
+   "read_noise_adu": 2.52
+  },
+  "G2": {
+   "n_pairs": 90,
+   "gain_e_per_adu": 1.177,
+   "gain_err": 0.002,
+   "S_range_adu": [
+    227,
+    2243
+   ],
+   "read_noise_adu": 2.49
+  },
+  "B": {
+   "n_pairs": 83,
+   "gain_e_per_adu": 1.187,
+   "gain_err": 0.002,
+   "S_range_adu": [
+    220,
+    1643
+   ],
+   "read_noise_adu": 3.06
+  }
+ }
+}

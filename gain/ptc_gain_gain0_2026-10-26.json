@@ -1,0 +1,150 @@
+{
+ "sessions": [
+  {
+   "dir": "DWARF_RAW_TELE_EXP_0.25_GAIN_0_2026-10-26-16-30-07-259",
+   "n": 5,
+   "gain": 0,
+   "exp": 0.25,
+   "filter": "Astro",
+   "fw": "1.1.4.19"
+  },
+  {
+   "dir": "DWARF_RAW_TELE_EXP_0.25_GAIN_0_2026-10-26-16-30-41-024",
+   "n": 50,
+   "gain": 0,
+   "exp": 0.25,
+   "filter": "Astro",
+   "fw": "1.1.4.19"
+  },
+  {
+   "dir": "DWARF_RAW_TELE_EXP_0.25_GAIN_0_2026-10-26-16-33-31-346",
+   "n": 50,
+   "gain": 0,
+   "exp": 0.25,
+   "filter": "Astro",
+   "fw": "1.1.4.19"
+  },
+  {
+   "dir": "DWARF_RAW_TELE_EXP_0.25_GAIN_0_2026-10-26-16-34-46-367",
+   "n": 50,
+   "gain": 0,
+   "exp": 0.25,
+   "filter": "Astro",
+   "fw": "1.1.4.19"
+  },
+  {
+   "dir": "DWARF_RAW_TELE_EXP_0.25_GAIN_0_2026-10-26-16-37-45-819",
+   "n": 50,
+   "gain": 0,
+   "exp": 0.25,
+   "filter": "Astro",
+   "fw": "1.1.4.19"
+  },
+  {
+   "dir": "DWARF_RAW_TELE_EXP_0.25_GAIN_0_2026-10-26-16-40-46-231",
+   "n": 55,
+   "gain": 0,
+   "exp": 0.25,
+   "filter": "Astro",
+   "fw": "1.1.4.19"
+  },
+  {
+   "dir": "DWARF_RAW_TELE_EXP_0.25_GAIN_0_2026-10-26-16-43-46-489",
+   "n": 60,
+   "gain": 0,
+   "exp": 0.25,
+   "filter": "Astro",
+   "fw": "1.1.4.19"
+  },
+  {
+   "dir": "DWARF_RAW_TELE_EXP_0.25_GAIN_0_2026-10-26-16-46-46-163",
+   "n": 60,
+   "gain": 0,
+   "exp": 0.25,
+   "filter": "Astro",
+   "fw": "1.1.4.19"
+  },
+  {
+   "dir": "DWARF_RAW_TELE_EXP_0.25_GAIN_0_2026-10-26-16-49-46-159",
+   "n": 50,
+   "gain": 0,
+   "exp": 0.25,
+   "filter": "Astro",
+   "fw": "1.1.4.19"
+  },
+  {
+   "dir": "DWARF_RAW_TELE_EXP_0.25_GAIN_0_2026-10-26-16-52-46-410",
+   "n": 49,
+   "gain": 0,
+   "exp": 0.25,
+   "filter": "Astro",
+   "fw": "1.1.4.19"
+  },
+  {
+   "dir": "DWARF_RAW_TELE_EXP_0.25_GAIN_0_2026-10-26-16-55-45-798",
+   "n": 49,
+   "gain": 0,
+   "exp": 0.25,
+   "filter": "Astro",
+   "fw": "1.1.4.19"
+  },
+  {
+   "dir": "DWARF_RAW_TELE_EXP_0.25_GAIN_0_2026-10-26-16-58-45-824",
+   "n": 49,
+   "gain": 0,
+   "exp": 0.25,
+   "filter": "Astro",
+   "fw": "1.1.4.19"
+  },
+  {
+   "dir": "DWARF_RAW_TELE_EXP_0.25_GAIN_0_2026-10-26-17-01-46-576",
+   "n": 49,
+   "gain": 0,
+   "exp": 0.25,
+   "filter": "Astro",
+   "fw": "1.1.4.19"
+  }
+ ],
+ "channels": {
+  "R": {
+   "n_pairs": 516,
+   "gain_e_per_adu": 9.788,
+   "gain_err": 0.031,
+   "S_range_adu": [
+    233,
+    1908
+   ],
+   "read_noise_adu": 1.61
+  },
+  "G1": {
+   "n_pairs": 547,
+   "gain_e_per_adu": 10.051,
+   "gain_err": 0.012,
+   "S_range_adu": [
+    231,
+    3230
+   ],
+   "read_noise_adu": null
+  },
+  "G2": {
+   "n_pairs": 532,
+   "gain_e_per_adu": 10.053,
+   "gain_err": 0.011,
+   "S_range_adu": [
+    231,
+    3232
+   ],
+   "read_noise_adu": null
+  },
+  "B": {
+   "n_pairs": 565,
+   "gain_e_per_adu": 9.669,
+   "gain_err": 0.031,
+   "S_range_adu": [
+    226,
+    2474
+   ],
+   "read_noise_adu": 1.29
+  }
+ }
+}
