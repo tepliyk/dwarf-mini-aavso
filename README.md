@@ -16,6 +16,7 @@ variable-star photometry. Free to use, please credit the data.
 | `gain/twilight_loop.py` | How the twilight series was shot (fixed exposure/gain, series every 3 min via my DWARF control library). |
 | `headers/` | Example raw FITS headers (sub-frame and on-board stack). |
 | `tools/check_test.py`, `tools/twilight_levels.py` | Quick level/saturation checks per Bayer channel. |
+| `datasets/NGC869_2026-09-03/` | **Photometry test set**: one clean 45 x 30 s session on the NGC 869 field with my full results (77 AAVSO observations, per-star json, VSP sequence, transformation data). Raw frames and calibration files are in release [v2026.10.27](https://github.com/tepliyk/dwarf-mini-aavso/releases/tag/v2026.10.27). See its [README](datasets/NGC869_2026-09-03/README.md). |
 
 ## Raw frames (download)
 
@@ -25,6 +26,11 @@ The FITS archives are too large for the repository itself, so they are attached 
 * [DWARFmini_twilight_2026-10-26_gain0_subset.zip](https://github.com/tepliyk/dwarf-mini-aavso/releases/download/v2026.10.26/DWARFmini_twilight_2026-10-26_gain0_subset.zip) (120 MB): every 5th frame, 145 frames, GAIN 0, 0.25 s.
 * [DWARFmini_twilight_2026-10-26_gain0_full.zip](https://github.com/tepliyk/dwarf-mini-aavso/releases/download/v2026.10.26/DWARFmini_twilight_2026-10-26_gain0_full.zip) (600 MB): all 725 frames of the same series.
 * [DWARFmini_dawn_2026-10-07_gain60_raw.zip](https://github.com/tepliyk/dwarf-mini-aavso/releases/download/v2026.10.26/DWARFmini_dawn_2026-10-07_gain60_raw.zip) (384 MB): dawn, GAIN 60, 5 pointings, 109 frames.
+
+Photometry test set, release [v2026.10.27](https://github.com/tepliyk/dwarf-mini-aavso/releases/tag/v2026.10.27):
+
+* [DWARFmini_NGC869_2026-09-03_raw.zip](https://github.com/tepliyk/dwarf-mini-aavso/releases/download/v2026.10.27/DWARFmini_NGC869_2026-09-03_raw.zip) (137 MB): 45 x 30 s raw Bayer sub-frames of the NGC 869 field, GAIN 60, plus the scope's darks, bias, flats and its on-board stack.
+* [DWARFmini_NGC869_2026-09-03_cloudstack_wcs.fits](https://github.com/tepliyk/dwarf-mini-aavso/releases/download/v2026.10.27/DWARFmini_NGC869_2026-09-03_cloudstack_wcs.fits) (12 MB): plate-solved cloud stack used as the astrometric reference.
 
 No calibration applied, headers untouched. Thin clouds passed through the field between about 16:38 and 16:47 (visible in the stretched panels below); the sky level still fell smoothly and the pair-difference method is insensitive to it.
 

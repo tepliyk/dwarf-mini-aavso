@@ -1,0 +1,29 @@
+{
+ "cloud_ref": null,
+ "session": "DWARF_RAW_TELE_NGC 869_EXP_30_GAIN_60_2026-09-03-01-37-30-254",
+ "n_subs": 45,
+ "darks": [
+  "dark_exp_30.000000_gain_60_bin_1_31C_stack_16.fits",
+  "dark_exp_30.000000_gain_60_bin_1_31C_stack_20.fits",
+  "dark_exp_30.000000_gain_60_bin_1_31C_stack_3.fits",
+  "dark_exp_30.000000_gain_60_bin_1_31C_stack_4.fits",
+  "dark_exp_30.000000_gain_60_bin_1_31C_stack_5.fits",
+  "dark_exp_30.000000_gain_60_bin_1_30C_stack_20.fits",
+  "dark_exp_30.000000_gain_60_bin_1_32C_stack_1.fits",
+  "dark_exp_30.000000_gain_60_bin_1_32C_stack_15.fits",
+  "dark_exp_30.000000_gain_60_bin_1_32C_stack_2.fits",
+  "dark_exp_30.000000_gain_60_bin_1_32C_stack_20.fits",
+  "dark_exp_30.000000_gain_60_bin_1_32C_stack_3.fits",
+  "dark_exp_30.000000_gain_60_bin_1_32C_stack_5.fits",
+  "dark_exp_30.000000_gain_60_bin_1_32C_stack_6.fits",
+  "dark_exp_30.000000_gain_60_bin_1_32C_stack_7.fits"
+ ],
+ "bias": [
+  "bias_gain_2_bin_1.fits"
+ ],
+ "flats": [
+  "flat\\cam_0\\flat_gain_2_bin_1_ir_1.fits",
+  "flat\\cam_0\\flat_gain_2_bin_1_ir_2.fits"
+ ],
+ "extended_rows": 77
+}

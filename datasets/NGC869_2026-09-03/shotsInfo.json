@@ -1,0 +1,16 @@
+{
+    "DEC": 57.12829985956365,
+    "RA": 2.316666750108308,
+    "binning": "1*1",
+    "eq": true,
+    "exp": "30",
+    "format": "FITS",
+    "gain": 60,
+    "ir": "Astro",
+    "maxTemp": 31,
+    "minTemp": 31,
+    "shotsStacked": 45,
+    "shotsTaken": 45,
+    "shotsToTake": 55,
+    "target": "NGC 869"
+}
