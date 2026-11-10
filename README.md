@@ -8,6 +8,7 @@ variable-star photometry. Free to use, please credit the data.
 
 | Path | What |
 |---|---|
+| `pipeline/` | **Photometry pipeline**: raw sub-frames -> calibrated green channel -> ensemble photometry against VSP comps -> transformed V -> AAVSO Extended file. See its [README](pipeline/README.md). |
 | `gain/ptc_gain.py` | Photon-transfer gain estimate per Bayer channel (R, G1, G2, B) from pairs of consecutive raw frames. Tile-based robust variance, so a sky gradient does not inflate the noise. |
 | `gain/ptc_gain_gain0_2026-10-26.json` | Result for GAIN 0, evening twilight 2026-10-26. |
 | `gain/ptc_gain_gain60_2026-10-07.json` | Result for GAIN 60, dawn 2026-10-07. |
